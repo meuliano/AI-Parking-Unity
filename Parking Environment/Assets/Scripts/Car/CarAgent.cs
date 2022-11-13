@@ -394,7 +394,7 @@ namespace UnityStandardAssets.Vehicles.Car{
 
         void OnTriggerEnter(Collider other)
         {
-            if(other.gameObject.tag == "Finish"){
+            if(other.gameObject.tag == "sFinish"){
                 inTarget = true;
             }
         }

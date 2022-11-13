@@ -1,5 +1,5 @@
 behaviors:
-  CarBehaviour:
+  CarBehaviourSAC:
     trainer_type: ppo
     hyperparameters:
       batch_size: 1024
@@ -37,7 +37,7 @@ behaviors:
     summary_freq: 100000
     threaded: true
 
-  CarBehaviourSAC:
+  CarBehaviourSAC1:
     trainer_type: sac
     hyperparameters:
       batch_size: 128
@@ -59,11 +59,11 @@ behaviors:
         strength: 0.99
       gail:
         strength: 0.3
-        demo_path: Demos/90dgRS3s.demo
+        demo_path: Demos/90dgRev3s.demo
         use_actions: false
 
     behavioral_cloning: 
-      demo_path: Demos/90dgRS3s.demo
+      demo_path: Demos/90dgRev3s.demo
       steps: 300000
       strength: 0.3
 

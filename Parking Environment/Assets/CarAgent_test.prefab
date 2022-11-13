@@ -885,9 +885,8 @@ GameObject:
   - component: {fileID: 7925184598841732249}
   - component: {fileID: 7925184598841732247}
   - component: {fileID: 5532211428068986616}
-  - component: {fileID: 4391216934180027276}
   m_Layer: 0
-  m_Name: CarAgent
+  m_Name: CarAgent_test
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1011,7 +1010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 1
+    VectorObservationSize: 3
     NumStackedVectorObservations: 3
     m_ActionSpec:
       m_NumContinuousActions: 3
@@ -1021,7 +1020,7 @@ MonoBehaviour:
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 0}
-  m_InferenceDevice: 3
+  m_InferenceDevice: 1
   m_BehaviorType: 0
   m_BehaviorName: CarBehaviour
   TeamId: 0
@@ -1068,22 +1067,6 @@ MonoBehaviour:
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
   m_StartVerticalOffset: 0.4
   m_EndVerticalOffset: 0.4
---- !u!114 &4391216934180027276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4391216934180027278}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2902496c0120472b90269f94a0aec7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Record: 1
-  NumStepsToRecord: 0
-  DemonstrationName: 90deg_RandSpawnTraff
-  DemonstrationDirectory: Demos
 --- !u!1 &4966355901550628889
 GameObject:
   m_ObjectHideFlags: 0
