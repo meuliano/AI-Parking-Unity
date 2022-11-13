@@ -25,6 +25,8 @@ public class MoveToGoalAgent : Agent
 
     private Vector3 startPosition;
     private Quaternion startRotation;
+    private Vector3 startPositionTarget;
+    private Quaternion startRotationTarget;
     private Vector3 lastPosition;
 
     private void FixedUpdate()
@@ -34,6 +36,11 @@ public class MoveToGoalAgent : Agent
 
     public override void OnEpisodeBegin()
     {
+        // Spawn randomly target position
+        
+        float spawnXtarget = Random.Range(startPositionTarget.x - spawnRadiusX, startPositionTarget.x + spawnRadiusX);
+        float spawnZtarget = Random.Range(startPositionTarget.z - spawnRadiusZ, startPositionTarget.z + spawnRadiusZ);
+        targetTransform.localPosition = new Vector3(spawnXtarget, startPositionTarget.y, spawnZtarget);
 
         // Spawn randomly in defined range
         float spawnX = Random.Range(startPosition.x - spawnRadiusX, startPosition.x + spawnRadiusX);
@@ -56,6 +63,9 @@ public class MoveToGoalAgent : Agent
 
         startPosition = transform.localPosition;
         startRotation = transform.localRotation;
+
+        startPositionTarget = targetTransform.localPosition;
+        startRotationTarget = targetTransform.localRotation;
 
         lastPosition = startPosition;
 
@@ -81,10 +91,8 @@ public class MoveToGoalAgent : Agent
         accel = accel - reverse;
 
         carController.Move(steering, accel, 0f, 0f);
-        Debug.Log("GoGoGo");
 
         steps++;
-
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)

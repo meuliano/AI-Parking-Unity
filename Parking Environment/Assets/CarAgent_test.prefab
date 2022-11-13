@@ -881,7 +881,6 @@ GameObject:
   - component: {fileID: 4391216934180186102}
   - component: {fileID: 4391216934174660740}
   - component: {fileID: 4391216934186028550}
-  - component: {fileID: 4391216934180027277}
   - component: {fileID: 7925184598841732249}
   - component: {fileID: 7925184598841732247}
   - component: {fileID: 5532211428068986616}
@@ -969,34 +968,6 @@ MonoBehaviour:
   m_SlipLimit: 0.3
   m_BrakeTorque: 20000
   m_engineBrakeTorque: 300
---- !u!114 &4391216934180027277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4391216934180027278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 376a12826671a914aa5214680425376a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agentParameters:
-    maxStep: 0
-  hasUpgradedFromAgentParameters: 1
-  MaxStep: 750
-  spawnRadiusX: 5
-  spawnRadiusZ: 0.25
-  envRadiusX: 7.5
-  envRadiusZ: 7.5
-  inTargetMultiplier: 1.5
-  target: {fileID: 0}
-  carCameras: []
-  cameraWidth: 200
-  cameraHeight: 200
-  cameraGrayScale: 0
-  sensorCompressionType: 1
-  findParkingSpot: 1
 --- !u!114 &7925184598841732249
 MonoBehaviour:
   m_ObjectHideFlags: 0
