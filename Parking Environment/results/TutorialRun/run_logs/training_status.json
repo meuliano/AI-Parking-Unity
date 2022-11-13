@@ -1,0 +1,155 @@
+{
+    "CarBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 2999897,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-2999897.onnx",
+                "reward": 473.6623258590698,
+                "creation_time": 1667666602.5911279,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-2999897.pt"
+                ]
+            },
+            {
+                "steps": 3999974,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-3999974.onnx",
+                "reward": 537.2377244472503,
+                "creation_time": 1667667375.1381032,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-3999974.pt"
+                ]
+            },
+            {
+                "steps": 4999959,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-4999959.onnx",
+                "reward": 63.99907684326172,
+                "creation_time": 1667668145.5585,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-4999959.pt"
+                ]
+            },
+            {
+                "steps": 5999779,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-5999779.onnx",
+                "reward": 459.60650730133057,
+                "creation_time": 1667668905.5939791,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-5999779.pt"
+                ]
+            },
+            {
+                "steps": 6999934,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-6999934.onnx",
+                "reward": 709.035351117452,
+                "creation_time": 1667669649.783338,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-6999934.pt"
+                ]
+            },
+            {
+                "steps": 7999980,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-7999980.onnx",
+                "reward": 905.538459777832,
+                "creation_time": 1667670386.620727,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-7999980.pt"
+                ]
+            },
+            {
+                "steps": 8999982,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-8999982.onnx",
+                "reward": 781.3911776542664,
+                "creation_time": 1667671120.2170856,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-8999982.pt"
+                ]
+            },
+            {
+                "steps": 9999739,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-9999739.onnx",
+                "reward": 576.9584169387817,
+                "creation_time": 1667671867.2312489,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-9999739.pt"
+                ]
+            },
+            {
+                "steps": 10999944,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-10999944.onnx",
+                "reward": null,
+                "creation_time": 1667672620.5413218,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-10999944.pt"
+                ]
+            },
+            {
+                "steps": 11999811,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-11999811.onnx",
+                "reward": 536.3413794381278,
+                "creation_time": 1667673368.4571862,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-11999811.pt"
+                ]
+            },
+            {
+                "steps": 12999851,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-12999851.onnx",
+                "reward": 464.2400544484456,
+                "creation_time": 1667674116.5350666,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-12999851.pt"
+                ]
+            },
+            {
+                "steps": 13999754,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-13999754.onnx",
+                "reward": -35.25157674153646,
+                "creation_time": 1667674868.2151694,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-13999754.pt"
+                ]
+            },
+            {
+                "steps": 14999917,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-14999917.onnx",
+                "reward": 24.98721694946289,
+                "creation_time": 1667675620.0065858,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-14999917.pt"
+                ]
+            },
+            {
+                "steps": 15999835,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-15999835.onnx",
+                "reward": 962.6271562576294,
+                "creation_time": 1667676365.016814,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-15999835.pt"
+                ]
+            },
+            {
+                "steps": 16725973,
+                "file_path": "results\\TutorialRun\\CarBehaviour\\CarBehaviour-16725973.onnx",
+                "reward": 569.4305550711496,
+                "creation_time": 1667676997.865867,
+                "auxillary_file_paths": [
+                    "results\\TutorialRun\\CarBehaviour\\CarBehaviour-16725973.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 16725973,
+            "file_path": "results\\TutorialRun\\CarBehaviour.onnx",
+            "reward": 569.4305550711496,
+            "creation_time": 1667676997.865867,
+            "auxillary_file_paths": [
+                "results\\TutorialRun\\CarBehaviour\\CarBehaviour-16725973.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cpu"
+    }
+}
