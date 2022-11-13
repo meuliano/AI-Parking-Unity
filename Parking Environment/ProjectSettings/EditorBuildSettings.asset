@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/90Deg.unity
     guid: 6c9da7d5ea9f294489db20310179c25e
+  - enabled: 1
+    path: Assets/Scenes/Parking_testing.unity
+    guid: e4dd264371b797f4e88e202707124d89
   m_configObjects: {}

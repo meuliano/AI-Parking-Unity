@@ -20,6 +20,8 @@ public class MoveToGoalAgent : Agent
 
     public float spawnRadiusX = 2f;
     public float spawnRadiusZ = 2f;
+    public float spawnRadiusTargetX = 2f;
+    public float spawnRadiusTargetZ = 2f;
 
     private int steps = 0;
 
@@ -38,8 +40,8 @@ public class MoveToGoalAgent : Agent
     {
         // Spawn randomly target position
         
-        float spawnXtarget = Random.Range(startPositionTarget.x - spawnRadiusX, startPositionTarget.x + spawnRadiusX);
-        float spawnZtarget = Random.Range(startPositionTarget.z - spawnRadiusZ, startPositionTarget.z + spawnRadiusZ);
+        float spawnXtarget = Random.Range(startPositionTarget.x - spawnRadiusTargetX, startPositionTarget.x + spawnRadiusTargetX);
+        float spawnZtarget = Random.Range(startPositionTarget.z - spawnRadiusTargetZ, startPositionTarget.z + spawnRadiusTargetZ);
         targetTransform.localPosition = new Vector3(spawnXtarget, startPositionTarget.y, spawnZtarget);
 
         // Spawn randomly in defined range

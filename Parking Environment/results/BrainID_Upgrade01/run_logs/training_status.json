@@ -2,22 +2,58 @@
     "MoveToGoal": {
         "checkpoints": [
             {
-                "steps": 128,
-                "file_path": "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-128.onnx",
+                "steps": 3499941,
+                "file_path": "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-3499941.onnx",
                 "reward": null,
-                "creation_time": 1668311387.8602672,
+                "creation_time": 1668317060.4855745,
                 "auxillary_file_paths": [
-                    "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-128.pt"
+                    "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-3499941.pt"
+                ]
+            },
+            {
+                "steps": 3999957,
+                "file_path": "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-3999957.onnx",
+                "reward": -1.0,
+                "creation_time": 1668317860.9837198,
+                "auxillary_file_paths": [
+                    "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-3999957.pt"
+                ]
+            },
+            {
+                "steps": 4499967,
+                "file_path": "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-4499967.onnx",
+                "reward": null,
+                "creation_time": 1668318658.5936673,
+                "auxillary_file_paths": [
+                    "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-4499967.pt"
+                ]
+            },
+            {
+                "steps": 4999982,
+                "file_path": "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-4999982.onnx",
+                "reward": null,
+                "creation_time": 1668319438.7418385,
+                "auxillary_file_paths": [
+                    "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-4999982.pt"
+                ]
+            },
+            {
+                "steps": 5001006,
+                "file_path": "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-5001006.onnx",
+                "reward": null,
+                "creation_time": 1668319438.8166327,
+                "auxillary_file_paths": [
+                    "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-5001006.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 128,
+            "steps": 5001006,
             "file_path": "results\\BrainID_Upgrade01\\MoveToGoal.onnx",
             "reward": null,
-            "creation_time": 1668311387.8602672,
+            "creation_time": 1668319438.8166327,
             "auxillary_file_paths": [
-                "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-128.pt"
+                "results\\BrainID_Upgrade01\\MoveToGoal\\MoveToGoal-5001006.pt"
             ]
         }
     },

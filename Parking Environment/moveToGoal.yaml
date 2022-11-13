@@ -1,6 +1,8 @@
 behaviors:
   MoveToGoal:
+  
     trainer_type: ppo
+
     hyperparameters:
       batch_size: 10
       buffer_size: 100
@@ -12,6 +14,7 @@ behaviors:
       learning_rate_schedule: linear
       beta_schedule: constant
       epsilon_schedule: linear
+
     network_settings:
       normalize: false
       hidden_units: 128

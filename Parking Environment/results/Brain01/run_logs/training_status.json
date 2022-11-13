@@ -1,0 +1,65 @@
+{
+    "MoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 999948,
+                "file_path": "results\\Brain01\\MoveToGoal\\MoveToGoal-999948.onnx",
+                "reward": null,
+                "creation_time": 1668361968.7035577,
+                "auxillary_file_paths": [
+                    "results\\Brain01\\MoveToGoal\\MoveToGoal-999948.pt"
+                ]
+            },
+            {
+                "steps": 1499995,
+                "file_path": "results\\Brain01\\MoveToGoal\\MoveToGoal-1499995.onnx",
+                "reward": null,
+                "creation_time": 1668362745.0876234,
+                "auxillary_file_paths": [
+                    "results\\Brain01\\MoveToGoal\\MoveToGoal-1499995.pt"
+                ]
+            },
+            {
+                "steps": 1999956,
+                "file_path": "results\\Brain01\\MoveToGoal\\MoveToGoal-1999956.onnx",
+                "reward": null,
+                "creation_time": 1668363503.4807055,
+                "auxillary_file_paths": [
+                    "results\\Brain01\\MoveToGoal\\MoveToGoal-1999956.pt"
+                ]
+            },
+            {
+                "steps": 2499966,
+                "file_path": "results\\Brain01\\MoveToGoal\\MoveToGoal-2499966.onnx",
+                "reward": null,
+                "creation_time": 1668364206.548129,
+                "auxillary_file_paths": [
+                    "results\\Brain01\\MoveToGoal\\MoveToGoal-2499966.pt"
+                ]
+            },
+            {
+                "steps": 2582748,
+                "file_path": "results\\Brain01\\MoveToGoal\\MoveToGoal-2582748.onnx",
+                "reward": null,
+                "creation_time": 1668364336.2890668,
+                "auxillary_file_paths": [
+                    "results\\Brain01\\MoveToGoal\\MoveToGoal-2582748.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2582748,
+            "file_path": "results\\Brain01\\MoveToGoal.onnx",
+            "reward": null,
+            "creation_time": 1668364336.2890668,
+            "auxillary_file_paths": [
+                "results\\Brain01\\MoveToGoal\\MoveToGoal-2582748.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cpu"
+    }
+}
