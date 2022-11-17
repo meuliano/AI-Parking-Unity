@@ -50,10 +50,9 @@ public class MoveToGoalAgent : Agent
         Vector3 spawnPosition = new Vector3(spawnX, startPosition.y, spawnZ);
 
         rb.transform.localPosition = spawnPosition;
-        rb.transform.localRotation = startRotation;
+        rb.transform.rotation = startRotation;
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
-
         steps = 0;
     }
     public override void Initialize()
@@ -64,10 +63,10 @@ public class MoveToGoalAgent : Agent
         defaultParameters = Academy.Instance.EnvironmentParameters;
 
         startPosition = transform.localPosition;
-        startRotation = transform.localRotation;
+        startRotation = transform.rotation;
 
         startPositionTarget = targetTransform.localPosition;
-        startRotationTarget = targetTransform.localRotation;
+        startRotationTarget = targetTransform.rotation;
 
         lastPosition = startPosition;
 
@@ -77,8 +76,9 @@ public class MoveToGoalAgent : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        sensor.AddObservation(carController.CurrentSpeed);
+        //sensor.AddObservation(carController.CurrentSpeed);
         sensor.AddObservation(transform.localPosition);
+        sensor.AddObservation(transform.rotation);
         sensor.AddObservation(targetTransform.localPosition);
     }
     public override void OnActionReceived(ActionBuffers actions)
@@ -95,6 +95,7 @@ public class MoveToGoalAgent : Agent
         carController.Move(steering, accel, 0f, 0f);
 
         steps++;
+        SetReward(-0.001f);
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)
@@ -129,4 +130,7 @@ public class MoveToGoalAgent : Agent
             EndEpisode();
         }
     }
+
 }
+
+

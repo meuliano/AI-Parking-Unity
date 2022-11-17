@@ -1,5 +1,5 @@
 behaviors:
-  CarBehaviour:
+  MoveToGoal:
     trainer_type: ppo
     hyperparameters:
       batch_size: 1024
@@ -22,11 +22,11 @@ behaviors:
         strength: 0.99
       gail:
         strength: 0.3
-        demo_path: Demos/90dgRS3s.demo
+        demo_path: Demos/BrainTest1_3.demo
         use_actions: false
 
     behavioral_cloning: 
-      demo_path: Demos/90dgRS3s.demo
+      demo_path: Demos/BrainTest1_3.demo
       steps: 750000
       strength: 0.4
 
