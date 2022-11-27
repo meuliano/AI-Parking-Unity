@@ -884,7 +884,8 @@ GameObject:
   - component: {fileID: 7925184598841732249}
   - component: {fileID: 7925184598841732247}
   - component: {fileID: 5532211428068986616}
-  - component: {fileID: 7780686378713671415}
+  - component: {fileID: 2471015335340068610}
+  - component: {fileID: 6747798093066348779}
   m_Layer: 0
   m_Name: CarAgent_test
   m_TagString: Player
@@ -925,7 +926,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &4391216934186028550
 MonoBehaviour:
@@ -934,7 +935,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4391216934180027278}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ea65b38d485c374caa584a03f1de571, type: 3}
   m_Name: 
@@ -1039,7 +1040,7 @@ MonoBehaviour:
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
   m_StartVerticalOffset: 0.4
   m_EndVerticalOffset: 0.4
---- !u!114 &7780686378713671415
+--- !u!114 &2471015335340068610
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1048,13 +1049,44 @@ MonoBehaviour:
   m_GameObject: {fileID: 4391216934180027278}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88b6042bc9a5d4aa58d931eae49442e5, type: 3}
+  m_Script: {fileID: 11500000, guid: b35ea6b1a9d056843af756a549f27057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 0
+  MaxStep: 1000
+  targetTransform: {fileID: 0}
+  winMaterial: {fileID: 2100000, guid: 1b02c609663c39e43bb85012d658f822, type: 2}
+  loseMaterial: {fileID: 2100000, guid: 7cfb4b39b6243d743901de9aaaca0d02, type: 2}
+  floorMeshRenderer: {fileID: 0}
+  spawnRadiusX: 2
+  spawnRadiusZ: 2
+  spawnRadiusTargetX: 2
+  spawnRadiusTargetZ: 2
+--- !u!114 &6747798093066348779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4391216934180027278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eccb86a0f3cebd488894d628c520075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axleInfos:
+  - leftWheel: {fileID: 614749670903673192}
+    rightWheel: {fileID: 4433494887582327573}
+    motor: 0
+    steering: 1
+  - leftWheel: {fileID: 5499052033081243443}
+    rightWheel: {fileID: 5045812593254893599}
+    motor: 1
+    steering: 0
+  maxMotorTorque: 2000
+  maxSteeringAngle: 40
 --- !u!1 &4966355901550628889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,13 +1335,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 50
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 50
   m_Enabled: 1
 --- !u!1 &6199063622576621814
 GameObject:
@@ -1365,13 +1397,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 50
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 50
   m_Enabled: 1
 --- !u!1 &6199063622577163222
 GameObject:
@@ -1427,13 +1459,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 50
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 50
   m_Enabled: 1
 --- !u!1 &6199063622695056641
 GameObject:
@@ -1489,13 +1521,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 50
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 50
   m_Enabled: 1
 --- !u!1 &7253092208388163445
 GameObject:

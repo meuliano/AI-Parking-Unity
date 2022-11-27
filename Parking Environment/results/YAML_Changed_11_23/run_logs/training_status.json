@@ -1,0 +1,155 @@
+{
+    "MoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 13999217,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-13999217.onnx",
+                "reward": 23.00000524520874,
+                "creation_time": 1669282303.8251295,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-13999217.pt"
+                ]
+            },
+            {
+                "steps": 14999942,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-14999942.onnx",
+                "reward": 13.000003337860107,
+                "creation_time": 1669283941.323648,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-14999942.pt"
+                ]
+            },
+            {
+                "steps": 15999825,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-15999825.onnx",
+                "reward": 1.9272235300805833,
+                "creation_time": 1669285567.7042153,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-15999825.pt"
+                ]
+            },
+            {
+                "steps": 16999948,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-16999948.onnx",
+                "reward": -7.28374977906545,
+                "creation_time": 1669287200.2752907,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-16999948.pt"
+                ]
+            },
+            {
+                "steps": 17999467,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-17999467.onnx",
+                "reward": -10.487000465393066,
+                "creation_time": 1669288840.6645148,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-17999467.pt"
+                ]
+            },
+            {
+                "steps": 18999367,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-18999367.onnx",
+                "reward": 3.3375015954176583,
+                "creation_time": 1669290468.7524905,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-18999367.pt"
+                ]
+            },
+            {
+                "steps": 19999075,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-19999075.onnx",
+                "reward": null,
+                "creation_time": 1669292113.3447955,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-19999075.pt"
+                ]
+            },
+            {
+                "steps": 20999953,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-20999953.onnx",
+                "reward": -1.5955000035464764,
+                "creation_time": 1669293742.8164084,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-20999953.pt"
+                ]
+            },
+            {
+                "steps": 21999969,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-21999969.onnx",
+                "reward": -6.062999963760376,
+                "creation_time": 1669295389.6916077,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-21999969.pt"
+                ]
+            },
+            {
+                "steps": 22999035,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-22999035.onnx",
+                "reward": 13.000004291534424,
+                "creation_time": 1669297101.4554415,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-22999035.pt"
+                ]
+            },
+            {
+                "steps": 23999937,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-23999937.onnx",
+                "reward": -7.1628001689910885,
+                "creation_time": 1669299026.4280388,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-23999937.pt"
+                ]
+            },
+            {
+                "steps": 24999514,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-24999514.onnx",
+                "reward": -7.781666715939839,
+                "creation_time": 1669300959.3238373,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-24999514.pt"
+                ]
+            },
+            {
+                "steps": 25999033,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-25999033.onnx",
+                "reward": -7.391000121831894,
+                "creation_time": 1669302891.2496367,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-25999033.pt"
+                ]
+            },
+            {
+                "steps": 26999956,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-26999956.onnx",
+                "reward": 4.3886678814888,
+                "creation_time": 1669304839.6573565,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-26999956.pt"
+                ]
+            },
+            {
+                "steps": 27582934,
+                "file_path": "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-27582934.onnx",
+                "reward": -6.634444302982754,
+                "creation_time": 1669306038.6973011,
+                "auxillary_file_paths": [
+                    "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-27582934.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 27582934,
+            "file_path": "results\\YAML_Changed_11_23\\MoveToGoal.onnx",
+            "reward": -6.634444302982754,
+            "creation_time": 1669306038.6973011,
+            "auxillary_file_paths": [
+                "results\\YAML_Changed_11_23\\MoveToGoal\\MoveToGoal-27582934.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
