@@ -1,0 +1,317 @@
+{
+    "MoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 999816,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-999816.onnx",
+                "reward": -69.09167607625325,
+                "creation_time": 1669651957.3759782,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-999816.pt"
+                ]
+            },
+            {
+                "steps": 1999202,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-1999202.onnx",
+                "reward": -59.63334274291992,
+                "creation_time": 1669653288.9950051,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-1999202.pt"
+                ]
+            },
+            {
+                "steps": 2999035,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-2999035.onnx",
+                "reward": -47.609098954634234,
+                "creation_time": 1669654605.1498513,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-2999035.pt"
+                ]
+            },
+            {
+                "steps": 3999544,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-3999544.onnx",
+                "reward": -28.778579303196498,
+                "creation_time": 1669655920.4288971,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-3999544.pt"
+                ]
+            },
+            {
+                "steps": 4999811,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-4999811.onnx",
+                "reward": -36.96875810623169,
+                "creation_time": 1669657240.6798937,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-4999811.pt"
+                ]
+            },
+            {
+                "steps": 5999604,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-5999604.onnx",
+                "reward": -15.838894526163736,
+                "creation_time": 1669658562.915565,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-5999604.pt"
+                ]
+            },
+            {
+                "steps": 6999415,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-6999415.onnx",
+                "reward": 5.529994964599609,
+                "creation_time": 1669659875.1062942,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-6999415.pt"
+                ]
+            },
+            {
+                "steps": 7999914,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-7999914.onnx",
+                "reward": 23.74999475479126,
+                "creation_time": 1669661175.123322,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-7999914.pt"
+                ]
+            },
+            {
+                "steps": 8999541,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-8999541.onnx",
+                "reward": null,
+                "creation_time": 1669662475.5797603,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-8999541.pt"
+                ]
+            },
+            {
+                "steps": 9999772,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-9999772.onnx",
+                "reward": 58.549997329711914,
+                "creation_time": 1669663775.8483696,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-9999772.pt"
+                ]
+            },
+            {
+                "steps": 10999315,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-10999315.onnx",
+                "reward": 53.06110509236654,
+                "creation_time": 1669665093.1864643,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-10999315.pt"
+                ]
+            },
+            {
+                "steps": 11999812,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-11999812.onnx",
+                "reward": 17.12999547322591,
+                "creation_time": 1669666398.9351609,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-11999812.pt"
+                ]
+            },
+            {
+                "steps": 12999175,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-12999175.onnx",
+                "reward": 44.179409363690546,
+                "creation_time": 1669667666.8625047,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-12999175.pt"
+                ]
+            },
+            {
+                "steps": 13999680,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-13999680.onnx",
+                "reward": 78.64999389648438,
+                "creation_time": 1669669002.8899639,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-13999680.pt"
+                ]
+            },
+            {
+                "steps": 14999630,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-14999630.onnx",
+                "reward": 51.49090714888139,
+                "creation_time": 1669670268.771581,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-14999630.pt"
+                ]
+            },
+            {
+                "steps": 15999788,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-15999788.onnx",
+                "reward": 41.889469849435905,
+                "creation_time": 1669671568.3084035,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-15999788.pt"
+                ]
+            },
+            {
+                "steps": 16999266,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-16999266.onnx",
+                "reward": 62.889281136649,
+                "creation_time": 1669672890.617515,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-16999266.pt"
+                ]
+            },
+            {
+                "steps": 17999777,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-17999777.onnx",
+                "reward": -40.750003814697266,
+                "creation_time": 1669674243.1853046,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-17999777.pt"
+                ]
+            },
+            {
+                "steps": 18999986,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-18999986.onnx",
+                "reward": null,
+                "creation_time": 1669675558.5758853,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-18999986.pt"
+                ]
+            },
+            {
+                "steps": 19999868,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-19999868.onnx",
+                "reward": 48.48076365544246,
+                "creation_time": 1669676861.6971545,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-19999868.pt"
+                ]
+            },
+            {
+                "steps": 20999621,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-20999621.onnx",
+                "reward": -31.700002670288086,
+                "creation_time": 1669678182.7626734,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-20999621.pt"
+                ]
+            },
+            {
+                "steps": 21999361,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-21999361.onnx",
+                "reward": 55.830767998328575,
+                "creation_time": 1669679486.4241147,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-21999361.pt"
+                ]
+            },
+            {
+                "steps": 22999655,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-22999655.onnx",
+                "reward": 29.585709163120814,
+                "creation_time": 1669680788.1006975,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-22999655.pt"
+                ]
+            },
+            {
+                "steps": 23999959,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-23999959.onnx",
+                "reward": 53.36153573256273,
+                "creation_time": 1669682099.074434,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-23999959.pt"
+                ]
+            },
+            {
+                "steps": 24999831,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-24999831.onnx",
+                "reward": 44.56249713897705,
+                "creation_time": 1669683415.1247127,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-24999831.pt"
+                ]
+            },
+            {
+                "steps": 25999154,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-25999154.onnx",
+                "reward": 57.17666447957357,
+                "creation_time": 1669684711.3769045,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-25999154.pt"
+                ]
+            },
+            {
+                "steps": 26999984,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-26999984.onnx",
+                "reward": 44.03055212232802,
+                "creation_time": 1669686011.3601937,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-26999984.pt"
+                ]
+            },
+            {
+                "steps": 27999545,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-27999545.onnx",
+                "reward": 75.0999984741211,
+                "creation_time": 1669687328.2263536,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-27999545.pt"
+                ]
+            },
+            {
+                "steps": 28999740,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-28999740.onnx",
+                "reward": 69.18333180745442,
+                "creation_time": 1669688619.7517867,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-28999740.pt"
+                ]
+            },
+            {
+                "steps": 29999323,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-29999323.onnx",
+                "reward": 70.34999752044678,
+                "creation_time": 1669690054.3834019,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-29999323.pt"
+                ]
+            },
+            {
+                "steps": 30999994,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-30999994.onnx",
+                "reward": 55.04230499267578,
+                "creation_time": 1669691637.2791657,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-30999994.pt"
+                ]
+            },
+            {
+                "steps": 31999785,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-31999785.onnx",
+                "reward": 52.18181332674894,
+                "creation_time": 1669693252.6783657,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-31999785.pt"
+                ]
+            },
+            {
+                "steps": 32499667,
+                "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-32499667.onnx",
+                "reward": null,
+                "creation_time": 1669694075.5202365,
+                "auxillary_file_paths": [
+                    "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-32499667.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 32499667,
+            "file_path": "results\\ParallelParking_FinalRun\\MoveToGoal.onnx",
+            "reward": null,
+            "creation_time": 1669694075.5202365,
+            "auxillary_file_paths": [
+                "results\\ParallelParking_FinalRun\\MoveToGoal\\MoveToGoal-32499667.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

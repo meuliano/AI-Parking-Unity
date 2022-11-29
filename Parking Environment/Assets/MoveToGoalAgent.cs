@@ -115,7 +115,7 @@ public class MoveToGoalAgent : Agent
             {
                 AddReward(+100f);
                 //Debug.Log(GetCumulativeReward());
-                Debug.Log("Successful Park");
+                Debug.Log("Successful Park"+ GetCumulativeReward());
                 EndEpisode();
             }
         }
@@ -125,6 +125,7 @@ public class MoveToGoalAgent : Agent
         if (steps == MaxStep)
         {
             AddReward(-5f);
+            Debug.Log("Failed To Reach"+GetCumulativeReward());
             floorMeshRenderer.material = loseMaterial;
         }
         AddReward(-0.05f);
@@ -161,21 +162,19 @@ public class MoveToGoalAgent : Agent
         if (other.TryGetComponent<WallCollide>(out WallCollide wall))
         {
             AddReward(-10f);
+            Explode();
             //Debug.Log(GetCumulativeReward());
+            Debug.Log("Boom Wall"+GetCumulativeReward());
             EndEpisode();
         }
         if (other.tag == "Car")
         {
             AddReward(-10f);
+            Explode();
             //Debug.Log(GetCumulativeReward());
+            Debug.Log("Boom Car" + GetCumulativeReward());
             EndEpisode();
         }
-    }
-    private void OnCollisionEnter(Collision other)
-    {
-        AddReward(-10f);
-        Debug.Log("Ouchie");
-        
     }
 
     void OnTriggerExit(Collider other)
@@ -185,6 +184,14 @@ public class MoveToGoalAgent : Agent
             inTarget = false;
             goalsCollided -= 1;
         }
+    }
+
+    [SerializeField] private GameObject Explosion;
+    //public GameObject Explosion;
+    void Explode()
+    {
+        GameObject explosion = Instantiate(Explosion, rb.position, Quaternion.identity);
+        explosion.GetComponent<ParticleSystem>().Play();
     }
 
     /*
