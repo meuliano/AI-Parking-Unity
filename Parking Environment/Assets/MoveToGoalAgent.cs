@@ -24,7 +24,6 @@ public class MoveToGoalAgent : Agent
 
     private int steps = 0;
     private int goalsCollided = 0;
-    private bool inTarget = false;
 
     private Vector3 startPosition;
     private Quaternion startRotation;
@@ -120,7 +119,6 @@ public class MoveToGoalAgent : Agent
         // Collide with Goal
         if (other.TryGetComponent<GoalCollide>(out GoalCollide goal))
         {
-            inTarget = true;
             goalsCollided += 1;
         }
         //Collide with Wall
@@ -146,7 +144,6 @@ public class MoveToGoalAgent : Agent
         // Exit goal collider
         if (other.TryGetComponent<GoalCollide>(out GoalCollide goal))
         {
-            inTarget = false;
             goalsCollided -= 1;
         }
     }

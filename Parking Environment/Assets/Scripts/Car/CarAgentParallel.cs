@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,8 +28,6 @@ namespace UnityStandardAssets.Vehicles.Car{
         private Rigidbody rb;
         private int steps = 0;
 
-        private bool nearParkingSpace = false;
-        private int parkTriggerCounter = 0;
         private bool inTarget = false;
 
         private Vector3 startPosition;
